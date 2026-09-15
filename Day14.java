@@ -1,16 +1,24 @@
+import java.util.Scanner;
+
 public class Day14 {
     public static void main(String[] args) {
-        int angka1 = 10;
-        int angka2 = 5;
-        int hasil = angka1+angka2;
-          System.out.println("hasil penjumlahan = " + hasil);
-
-        int angka01 = 10;
-        int angka02 = 20;
-        int hasil2 = angka1-angka2;
-
+       Scanner input = new Scanner(System.in);
+       System.out.println("uang tabungan awal");
+       double tabunganAwal = input.nextDouble();
+       System.out.println("uang dari ayah");
+       double uangayah = input.nextDouble();
+       System.out.println("uang  dari ibu");
+       double uangibu = input.nextDouble();
     
-        System.out.println("hasil penjumlahan = " + hasil2);
+       double uangyangtersisa = tabunganAwal+uangayah+uangibu;
+       System.out.println("uang tabungan riang saat ini" + uangyangtersisa);
+       System.out.println("riang membeli buku");
+       double bukuriang = input.nextDouble();
+
+       double sisauang = uangyangtersisa-bukuriang;
+       System.out.println("sisa uang riang" + sisauang);
+
+
 
 
     }
