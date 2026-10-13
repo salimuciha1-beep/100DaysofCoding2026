@@ -4,7 +4,7 @@ public class Day42 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("masukkan gaji pokok : ");
-        int gajiPokok = sc.nextInt();;
+        int gajiPokok = sc.nextInt();
 
         double tunjangan = 0.10 * gajiPokok;
         double gajikotor = gajiPokok + tunjangan;
