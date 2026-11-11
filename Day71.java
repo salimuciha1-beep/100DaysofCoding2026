@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Day71 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("masukkan tingi");
+        int x = sc.nextInt();
+        
+        for (int i = x; i >= 1; i--) {
+            for (int j = i; j >= 1; j--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
