@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Day71 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("masukkan tingi");
+        System.out.println("masukkan tinggi");
         int x = sc.nextInt();
         
         for (int i = x; i >= 1; i--) {
